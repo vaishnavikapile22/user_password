@@ -75,34 +75,36 @@ python manage.py runserver
 
 # 127.0.0.1:8000/register
 
-![Screenshot (76)](https://github.com/vaishnavikapile22/user_password/assets/149785862/434a5795-0394-4657-b8fa-5540b76f8f80)
+![Screenshot (76)](https://github.com/vaishnavikapile22/1/assets/149785862/c1866b49-ecdf-40fd-9d49-5921cc66275b)
 
 #127.0.0.1:8000/dashboard
 
-![Screenshot (77)](https://github.com/vaishnavikapile22/user_password/assets/149785862/2af32755-1f3d-44f7-ad89-695207e294d5)
+![Screenshot (77)](https://github.com/vaishnavikapile22/1/assets/149785862/41d3c813-acd6-4808-a332-ea7774c0486d)
 
 
-# 127.0.0.1:8000/login
+#127.0.0.1:8000/login
 
-![Screenshot (78)](https://github.com/vaishnavikapile22/user_password/assets/149785862/82002723-a59e-4175-9a00-7a8577889dd2)
-
-
-#127.0.0.1:8000/admin
-
-![Screenshot (79)](https://github.com/vaishnavikapile22/user_password/assets/149785862/e18fb58c-e570-4bdd-853d-42f67b46e35b)
+![Screenshot (78)](https://github.com/vaishnavikapile22/1/assets/149785862/a9d6826c-981a-4265-a3a5-0e0ef7fa5ed4)
 
 
 #127.0.0.1:8000/admin
 
-![Screenshot (80)](https://github.com/vaishnavikapile22/user_password/assets/149785862/518f0df3-26bc-4ebd-ae1e-53483482f4a6)
-
-#all user data ho login or register
-
-![Screenshot (81)](https://github.com/vaishnavikapile22/user_password/assets/149785862/795f20f8-8d04-4e80-abd0-8976d7b8bcca)
-
-#  127.0.0.1:8000/history
+![Screenshot (79)](https://github.com/vaishnavikapile22/1/assets/149785862/fda003bd-a8b4-4e56-8ccd-84ee02f36ded)
 
 
-![Screenshot (82)](https://github.com/vaishnavikapile22/user_password/assets/149785862/15e75e38-c3c7-471b-8c05-de9e0ad07ba9)
+#127.0.0.1:8000/admin
+
+![Screenshot (80)](https://github.com/vaishnavikapile22/1/assets/149785862/55f26f59-d01e-403a-975f-d311844609d7)
+
+
+#all user data who login or register
+
+![Screenshot (81)](https://github.com/vaishnavikapile22/1/assets/149785862/127fb3e8-511c-43e0-9bdc-b6a81d4b8e91)
+
+
+#127.0.0.1:8000/history
+
+![Screenshot (82)](https://github.com/vaishnavikapile22/1/assets/149785862/35ccffdc-9a3a-43f8-b743-040bcd1fd0cf)
+
 
 
