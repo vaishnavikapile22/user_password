@@ -1,0 +1,29 @@
+<!-- history.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Register History</title>
+</head>
+<body>
+    <h1>Login and Register History</h1>
+    {% if user.is_authenticated and user.is_staff %}
+        <h2>Login History</h2>
+        <ul>
+            {% for entry in login_history %}
+                <li>{{ entry.user.username }} - {{ entry.timestamp }}</li>
+            {% endfor %}
+        </ul>
+
+        <h2>Register History</h2>
+        <ul>
+            {% for entry in register_history %}
+                <li>{{ entry.user.username }} - {{ entry.timestamp }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Access Denied. Only admins can view this page.</p>
+    {% endif %}
+</body>
+</html>

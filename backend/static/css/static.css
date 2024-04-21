@@ -1,0 +1,16 @@
+/* Example CSS for basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin: 20px;
+}
+
+input, button {
+    margin: 5px;
+}
+
+#resultsContainer, #historyContainer {
+    margin: 20px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Welcome to the Dashboard</h1>
+    <div>
+        <h2>User Information</h2>
+        <p>Username: {{ user.username }}</p>
+        <p>Email: {{ user.email }}</p>
+    </div>
+    <div>
+        <h2>Backtesting History</h2>
+        <ul>
+            {% for test in backtests %}
+                <li>
+                    <strong>Test ID:</strong> {{ test.id }} <br>
+                    <strong>Parameters:</strong> {{ test.parameters }} <br>
+                    <strong>Result:</strong> {{ test.result }} <br>
+                    <strong>Timestamp:</strong> {{ test.timestamp }} <br>
+                </li>
+            {% empty %}
+                <li>No backtesting history available.</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
